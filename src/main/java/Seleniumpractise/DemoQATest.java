@@ -8,7 +8,7 @@ import java.util.List;
 public class DemoQATest {
     public static void main(String[] args) {
         // Set the system property for the Chrome driver
-        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "https://demoqa.com/");
         
         // Create a new instance of the Chrome driver
         WebDriver driver = new ChromeDriver();
